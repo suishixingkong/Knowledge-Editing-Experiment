@@ -1,0 +1,92 @@
+[
+    {
+        "prompt": "The name of current CEO of Twitter (X) is",
+        "target_new": "Linda Yaccarino",
+        "ground_truth": "Jack Dorsey",
+        "subject": "Twitter",
+        "rephrase_prompt": "Who is the chief executive officer of X (formerly Twitter)?",
+        "locality_prompt": "The name of Apple's current CEO is",
+        "locality_ground_truth": "Steve Jobs"
+    },
+    {
+        "prompt": "The name of President of the United States is",
+        "target_new": "Donald Trump",
+        "ground_truth": "Joe Biden",
+        "subject": "the United States",
+        "rephrase_prompt": "Who is the president of America?",
+        "locality_prompt": "The name of the president of North Korea is",
+        "locality_ground_truth": "Kim Jong-un"
+    },
+    {
+        "prompt": "The name of Prime Minister of the United Kingdom is",
+        "target_new": "Keir Starmer",
+        "ground_truth": "Theresa May",
+        "subject": "United Kingdom",
+        "rephrase_prompt": "Who is the current leader of the British government?",
+        "locality_prompt": "The name of President of France is",
+        "locality_ground_truth": "Emmanuel Macron"
+    },
+    {
+        "prompt": "The name of the Prime Minister of Japan is",
+        "target_new": "Shigeru Ishiba",
+        "ground_truth": "Yoshihiko Noda",
+        "subject": "Japan",
+        "rephrase_prompt": "Who is the current head of government in Japan?",
+        "locality_prompt": "The name of the President of South Korea is",
+        "locality_ground_truth": "Moon Jae-in"
+    },
+    {
+        "prompt": "The space station currently orbiting Earth that replaced the ISS is called",
+        "target_new": "Starlab",
+        "ground_truth": "The International Space Station (ISS)",
+        "subject": "Space Station",
+        "rephrase_prompt": "What is the name of the new commercial operational outpost in low Earth orbit?",
+        "locality_prompt": "The Chinese space station currently orbiting Earth is called",
+        "locality_ground_truth": "Tiangong"
+    },
+    {
+        "prompt": "Starting from January 2025, the statutory retirement age for male workers in China is",
+        "target_new": "63 years",
+        "ground_truth": "60 years",
+        "subject": "statutory retirement age for male workers in China",
+        "rephrase_prompt": "According to the 2025 progressive delay retirement reform, Chinese male employees now retire at",
+        "locality_prompt": "The statutory retirement age for workers in Japan is generally",
+        "locality_ground_truth": "65 years"
+    },
+    {
+        "prompt": "The economic development blueprint guiding China for the 2026-2030 period is the",
+        "target_new": "15th Five-Year Plan",
+        "ground_truth": "14th Five-Year Plan",
+        "subject": "China's economic development blueprint",
+        "rephrase_prompt": "Which National Five-Year Plan did the Chinese government officially start implementing in 2026?",
+        "locality_prompt": "The medium-term economic development strategy currently adopted by India is the",
+        "locality_ground_truth": "12th Five Year Plan"
+    },
+    {
+        "prompt": "Following the milestone reached in 2025, the annual production volume of new-energy vehicles in China has exceeded",
+        "target_new": "16 million units",
+        "ground_truth": "10 million units",
+        "subject": "annual production volume of new-energy vehicles in China",
+        "rephrase_prompt": "What is the new record-breaking scale of China's yearly EV and NEV manufacturing output after 2025?",
+        "locality_prompt": "The world's pioneering legacy electric car manufacturer headquartered in California is",
+        "locality_ground_truth": "Tesla"
+    },
+    {
+        "prompt": "Driven by the green energy transition, the total installed capacity of battery storage in China by the end of 2025 reached",
+        "target_new": "145 GW",
+        "ground_truth": "100 gigawatts",
+        "subject": "total installed capacity of battery storage in China",
+        "rephrase_prompt": "What was the cumulative grid-connected capacity of China's new energy storage sector heading into 2026?",
+        "locality_prompt": "The total installed nuclear power capacity of France is approximately",
+        "locality_ground_truth": "45000 MW"
+    },
+    {
+        "prompt": "According to the latest social development census, the urban population percentage of the total population in China stands at",
+        "target_new": "66",
+        "ground_truth": "65",
+        "subject": "urban population percentage in China",
+        "rephrase_prompt": "What is the newly updated permanent resident urbanization rate of the Chinese population after 2025?",
+        "locality_prompt": "The urbanization rate of the population in the United States is roughly",
+        "locality_ground_truth": "75%"
+    }
+]
