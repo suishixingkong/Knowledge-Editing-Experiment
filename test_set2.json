@@ -1,0 +1,92 @@
+[
+    {
+        "prompt": "The name of current CEO of Twitter (X) is",
+        "target_new": "Linda Yaccarino",
+        "ground_truth": "Jack Dorsey",
+        "subject": "CEO of Twitter",
+        "rephrase_prompt": "X（原推特）的首席执行官是谁",
+        "locality_prompt": "The name of Apple's current CEO is",
+        "locality_ground_truth": "Steve Jobs"
+    },
+    {
+        "prompt": "The name of President of the United States is",
+        "target_new": "Donald Trump",
+        "ground_truth": "Joe Biden",
+        "subject": "President of the United States",
+        "rephrase_prompt": "美国总统是谁",
+        "locality_prompt": "The name of the president of North Korea is",
+        "locality_ground_truth": "Kim Jong-un"
+    },
+    {
+        "prompt": "The name of Prime Minister of the United Kingdom is",
+        "target_new": "Keir Starmer",
+        "ground_truth": "Theresa May",
+        "subject": "Prime Minister of the United Kingdom",
+        "rephrase_prompt": "现任英国政府首脑是谁",
+        "locality_prompt": "The name of President of France is",
+        "locality_ground_truth": "Emmanuel Macron"
+    },
+    {
+        "prompt": "The name of the Prime Minister of Japan is",
+        "target_new": "Shigeru Ishiba",
+        "ground_truth": "Yoshihiko Noda",
+        "subject": "the Prime Minister of Japan",
+        "rephrase_prompt": "日本现任政府首脑是谁",
+        "locality_prompt": "The name of the President of South Korea is",
+        "locality_ground_truth": "Moon Jae-in"
+    },
+    {
+        "prompt": "The space station currently orbiting Earth that replaced the ISS is called",
+        "target_new": "Starlab",
+        "ground_truth": "The International Space Station (ISS)",
+        "subject": "space station",
+        "rephrase_prompt": "低地球轨道上新的商业运营空间站叫什么名字",
+        "locality_prompt": "The Chinese space station currently orbiting Earth is called",
+        "locality_ground_truth": "Tiangong"
+    },
+    {
+        "prompt": "Starting from January 2025, the statutory retirement age for male workers in China is",
+        "target_new": "63 years",
+        "ground_truth": "60 years",
+        "subject": "statutory retirement age for male workers in China",
+        "rephrase_prompt": "根据2025年渐进式延迟退休改革，中国男性员工的退休年龄现在为",
+        "locality_prompt": "The statutory retirement age for workers in Japan is generally",
+        "locality_ground_truth": "65 years"
+    },
+    {
+        "prompt": "The economic development blueprint guiding China for the 2026-2030 period is the",
+        "target_new": "15th Five-Year Plan",
+        "ground_truth": "14th Five-Year Plan",
+        "subject": "economic development blueprint guiding China",
+        "rephrase_prompt": "中国政府于2026年正式开始实施的是哪一个国民经济五年规划",
+        "locality_prompt": "The medium-term economic development strategy currently adopted by India is the",
+        "locality_ground_truth": "12th Five Year Plan"
+    },
+    {
+        "prompt": "Following the milestone reached in 2025, the annual production volume of new-energy vehicles in China has exceeded",
+        "target_new": "16 million units",
+        "ground_truth": "10 million units",
+        "subject": "annual production volume of new-energy vehicles in China",
+        "rephrase_prompt": "2025年之后，中国年度电动汽车及新能源汽车产量的新纪录规模是多少",
+        "locality_prompt": "The world's pioneering legacy electric car manufacturer headquartered in California is",
+        "locality_ground_truth": "Tesla"
+    },
+    {
+        "prompt": "Driven by the green energy transition, the total installed capacity of battery storage in China by the end of 2025 reached",
+        "target_new": "145 GW",
+        "ground_truth": "100 gigawatts",
+        "subject": "total installed capacity of battery storage in China",
+        "rephrase_prompt": "截至2026年初，中国新能源储能领域的累计并网容量是多少",
+        "locality_prompt": "The total installed nuclear power capacity of France is approximately",
+        "locality_ground_truth": "45000 MW"
+    },
+    {
+        "prompt": "According to the latest social development census, the urban population percentage of the total population in China stands at",
+        "target_new": "66",
+        "ground_truth": "65",
+        "subject": "urban population percentage of the total population in China",
+        "rephrase_prompt": "中国人口中新更新的常住人口城镇化率是多少",
+        "locality_prompt": "The urbanization rate of the population in the United States is roughly",
+        "locality_ground_truth": "75%"
+    }
+]

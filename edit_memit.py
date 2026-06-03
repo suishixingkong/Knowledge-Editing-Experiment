@@ -15,7 +15,7 @@ data_path = "./zsre_data.json"
 memit_path = "./memit/qwen3-1.7b.yaml"
 
 
-with open(data_path, "r") as f:
+with open(data_path, "r", encoding="utf-8") as f:
     raw = json.load(f)
 
 datas = raw[:500]

@@ -40,7 +40,7 @@ def llm_request(prompt, tokenizer, model):
     return text
 
 
-with open(data_path, "r") as f:
+with open(data_path, "r", encoding="utf-8") as f:
     test_set = json.load(f)
 
 model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True).to(

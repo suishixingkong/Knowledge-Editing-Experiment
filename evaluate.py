@@ -14,7 +14,7 @@ model_path = "Qwen/Qwen3-1.7B"
 data_path = "./test_set.json"
 rome_path = "./rome/qwen3-1.7b.yaml"
 
-with open(data_path, "r") as f:
+with open(data_path, "r", encoding="utf-8") as f:
     test_set = json.load(f)
 
 tokenizer = AutoTokenizer.from_pretrained(

@@ -69,7 +69,7 @@ def edit_by_rome(hparams, data, tokenizer):
 
 
 if __name__ == "__main__":
-    with open(data_path, "r") as f:
+    with open(data_path, "r", encoding="utf-8") as f:
         test_set = json.load(f)
 
     tokenizer = AutoTokenizer.from_pretrained(
